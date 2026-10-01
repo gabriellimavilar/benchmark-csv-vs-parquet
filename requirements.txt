@@ -1,0 +1,12 @@
+# Otimizacao de Consultas Analiticas - Trilha B
+# Testado com Python 3.14 no Windows 11.
+# Versoes minimas; as usadas no relatorio estao registradas em results/RESULTS.md.
+
+pandas>=2.0
+pyarrow>=14.0
+numpy>=1.24
+psutil>=5.9
+
+# timeit, time, gc, sys, subprocess e threading fazem parte da biblioteca padrao.
+# duckdb NAO e necessario para rodar o benchmark: os snippets SQL da secao 5 do
+# RESULTS.md sao ilustrativos. Para executa-los: pip install duckdb

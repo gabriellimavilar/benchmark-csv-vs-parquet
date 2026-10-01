@@ -1,0 +1,19 @@
+# Dados gerados pelo script -- reproduziveis com `python script_benchmark.py --apenas-dados`.
+# A seed e fixa (SEED = 42), entao o dataset regenerado e byte-identico ao usado no
+# relatorio. Nao versionamos ~99 MB de artefato derivado.
+data/
+
+# Saida intermediaria de execucoes
+results/_saida_console.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Sistema operacional / editor
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

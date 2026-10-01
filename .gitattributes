@@ -1,0 +1,5 @@
+# Normaliza finais de linha: LF no repositorio, nativo no working copy.
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
